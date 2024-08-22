@@ -1,0 +1,40 @@
+/* Basic styling for the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the heading */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Styling for the paragraph */
+p {
+    font-family: 'Georgia', serif;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Button styling */
+.my-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.my-button:hover {
+    background-color: #45a049;
+}
